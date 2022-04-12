@@ -13,10 +13,10 @@ class UserAdminSeeder extends Seeder
     {
         DB::table('users')->insert([[
             'name' => 'Admin',
-            'email' => 'admin@logicaladdress.com',
+            'email' => 'admin@ppp.com',
             'user_type' => 'admin',
             'phone' => '08161730129',
-            'password' => bcrypt('faker00tX'),
+            'password' => bcrypt('password'),
         ],
         ]);
     }
